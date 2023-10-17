@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 app.use(logger("dev"));
 
 app.get("/", (req, res) => {
-  res.send("This is the server");
+  res.sendFile(process.cwd() + "/client/index.html");
 });
 
 app.listen(port, () => {
