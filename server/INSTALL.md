@@ -43,3 +43,25 @@ app.get("/", (req, res) => {
 
 // ...
 ```
+
+# Add socket.io
+
+```bash
+yarn add socket.io
+```
+
+# Add prisma
+
+```bash
+yarn add prisma -D @prisma/client
+```
+
+```bash
+npx prisma init
+```
+
+- create models , then:
+
+```bash
+npx prisma migrate dev --name init
+```

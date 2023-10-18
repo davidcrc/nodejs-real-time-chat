@@ -1,6 +1,6 @@
 # Server real time chat
 
-Desc
+Implemented with nodejs prisma and socket.io , basic real time server
 
 # Run
 
